@@ -16,7 +16,6 @@ if number > 0:
 elif number == 0:
     print(string + f"{number:d}" + " " + "is " + f"{n:d} " + "and is 0")
 else:
-    else:
     if int(inttostr[-1]) > 5 or int(inttostr[-1]) < 5:
         print (string + f"{number:d}" + " " + "is " + f"-{n:d} " + "and is less than 6 and not 0")
     else:
