@@ -1,5 +1,11 @@
-# Save this code in a file named add_0.py
+#!/usr/bin/python3
 
-# Define the add function
-def add(a, b):
-    return a + b
+# Define the variables
+a = 1
+b = 2
+
+# Import the add function from add_0.py
+from add_0 import add
+
+# Print the result using string formatting
+print("{} + {} = {}".format(a, b, add(a, b)))
